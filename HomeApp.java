@@ -20,6 +20,7 @@ public class HomeApp{
         HomeApp app = new HomeApp(homeInterface);
 
         app.turnEverythingOn();
+        System.out.println();
         app.turnEverythingOff();
     }
 }
